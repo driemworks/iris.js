@@ -1,0 +1,35 @@
+{
+  "name": "iris.js",
+  "version": "1.0.0",
+  "description": "Iris Javascript SDK",
+  "main": "src/index.js",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driemworks/iris.js.git"
+  },
+  "author": "driemworks",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/driemworks/iris.js/issues"
+  },
+  "homepage": "https://github.com/driemworks/iris.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "rollup": "^3.7.5",
+    "rollup-plugin-dts": "^5.0.0"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.10.3",
+    "ipfs-core": "^0.17.0"
+  }
+}
